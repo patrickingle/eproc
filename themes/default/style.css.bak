@@ -1,0 +1,281 @@
+* {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+body{ /*background:url(images/bg.jpg);*/ }
+a {color:#cd2800}
+a:hover{text-decoration:none;}
+
+img {border:0px;}
+br {line-height:0px;}
+
+input {vertical-align:middle; padding:0px 0px 0px 4px;}
+
+.dt {
+	display:table; 
+	width:100%;
+}
+.dr {
+	display:table-row; 
+	width:100%; 
+	height:100%;
+}
+.dc {
+	display:table-cell;
+	text-align:left;
+	vertical-align:top; 
+	width:100%; 
+}
+.main_text, input, textarea, body, select{
+	font:normal 11px Arial, Helvetica, sans-serif;
+	line-height:15px;
+	color:#000;
+}
+
+font {
+	font:normal 13px Tahoma, Arial;
+	color:#D12C00;
+}
+.input, .ta {
+	border:1px solid #999;
+	width:211px;
+}
+.input {
+	height:20px;
+}
+.ta {
+	height:80px;
+	overflow:auto;
+	padding:2px 0px 0px 5px;
+}
+b {color:#d92b00; font-size:12px}
+b a{color:#390}
+font {font:bold 11px Arial, Helvetica, sans-serif; color:#5486a9}
+.nn a{text-decoration:none}
+.nn a:hover{text-decoration:underline}
+ul {list-style:none}
+
+.main {
+	width:100%;
+	background:url(images/tal.jpg) top left repeat-x #FFF;
+}
+.main_t {
+	/*background:#fafaf0;*/
+	background-color: #fff;
+}
+.x {
+	margin:0px 46px 0px 49px; 
+	width:671px;
+}
+/*••••••••••••••HEADER•••••••••••••*/
+.header {
+	height:99px;
+	/*background:url(images/hbg.jpg) 0 0 no-repeat;*/
+}
+.top_l {
+	/*background:url(images/top.jpg) 0 0 repeat-x;*/
+}
+.top {
+	height:63px;
+}
+.menu {
+	height:76px;
+}
+.umenu {	
+	width:288px; 
+	height:20px; 
+	background:url(images/g.jpg) 0 0 no-repeat; */
+	font:normal 10px Arial, Helvetica, sans-serif; 
+	color:#FFF; 
+	margin:0px 0px 0px 22px;
+}
+.umenu2 {	
+	width:144px; 
+	height:20px; 
+	background:url(images/g2.jpg) 0 0 no-repeat; 
+	font:normal 10px Arial, Helvetica, sans-serif; 
+	color:#FFF; 
+}
+.mpct {
+	width:766px;
+	height:191px;
+	background:url(images/mpct.jpg) 0 0 no-repeat
+}
+.block {
+	margin:0px 0px 0px 521px; 
+	width:200px;
+}
+.block b {
+	color:#5486a9;
+}
+/*••••••••••••••CONTENT•••••••••••••*/
+.mrg {
+	margin:0px 0px 0px 8px; width:720px;
+}
+.cont {
+	width:735px;
+	margin:0px 0px 0px 14px;
+	background:url(images/cont_bg.jpg) 0 0 repeat-x
+}
+.cb {
+	margin:0px 0px 0px 20px; 
+	width:200px;
+}
+li {
+	list-style:none;
+	line-height:10px;
+	padding:5px 0px 3px 0px;
+}
+li a {
+	padding:0px 0px 0px 17px;
+	color:#000;
+	background:url(images/0blt1.jpg) 0 0 no-repeat;
+	font:bold 11px Arial, Helvetica, sans-serif;
+}
+.l {background:url(images/l.gif) top right repeat-y}
+.r {background:url(images/l.gif) 0 0 repeat-y}
+.rdmr {
+	color:#cb2700;
+	font:bold 10px Tahoma, Arial;
+	background:url(images/0blt1.jpg) 0 0 no-repeat;
+	padding:0px 0px 0px 10px;
+	text-transform:uppercase;
+}
+.ftr {color:#c0c0c0;}
+.ftr a{color:#c0c0c0;}
+
+.ftr1 {color:#9a9a9a;}
+.ftr1 a{color:#9a9a9a;}
+
+.fleft {
+	float: left;
+}
+.clear {
+	clear: both;
+}
+.textField {
+	border: 1px #999999 solid;
+	color: black;
+}
+.btn {
+	border: 1px #999999 solid;
+	color: black;
+}
+.left25 {
+	margin-left: 25px;
+}
+.width1 {
+	width: 420px;
+}
+.formError {
+	color: #f00;
+	font-weight: bold;
+}
+
+#loginBar {
+	float: left;
+	margin-top: 11px;
+	margin-left: 220px;
+	color: white;
+}
+#loginForgot {
+	font-size: 9px;
+}
+#loginForgot a {
+	color: white;
+	text-decoration: underline;
+}
+
+#wideBody {
+	margin: auto;
+	width: 100%;
+}
+#leftSidebar {
+	float: left;
+	margin-left: 20px;
+	border: 100px #555 solid;
+	padding: 1px;
+	width: 900px;
+}
+#mainContent {
+	float: left;
+	margin-left: 10px;
+	font-size: 13px;
+}
+.menuHeading {
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+	color: #555;
+}
+.reqFormSelect {
+	font-size: 12pt;
+	width: 200px;
+	height: 23px;
+	color: #000;
+	font-weight: bold;
+}
+.tdBorder {
+	border: 1px solid black;
+	padding: 5px;
+}
+.padding5 {
+	padding: 5px;
+}
+.padding10 {
+	padding: 10px;
+}
+.padding0 {
+	padding: 0;
+}
+#sampul2 input {
+	height: 10px;
+	font-size: 7pt;
+	border: 1px solid black;
+}
+#s2panitia input {
+	width: 50px;
+}
+.fBorder {
+	border: 1px solid black;
+}
+.ftBorder {
+	border: 2px solid black;
+}
+.topBorder {
+	border-top: 1px solid black;
+}
+.bottomBorder {
+	border-bottom: 1px solid black;
+}
+.leftBorder {
+	border-left: 1px solid black;
+}
+.rightBorder {
+	border-right: 1px solid black;
+}
+.rfqTable td {
+	padding: 5px;
+}
+.textbox {
+	width: 65px;
+}
+#zeropad1 td {
+	padding: 0;
+}
+#zeropad2 td {
+	padding: 0;
+}
+.zeropad tr {
+	padding: 0;
+}
+.smallText {
+	font-size: 7pt;
+}
+.yellowBg {
+	background-color: yellow;
+}
+.disabledRow {
+	background-color: #bbb;
+}

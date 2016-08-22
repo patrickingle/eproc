@@ -1,0 +1,9 @@
+<?php
+	define(REL_DIR, "eproc/");
+	define(SMARTY_DIR, "smarty/");
+	define(THEME_DIR, "themes/");
+	define(DIRECTORY_SEPARATOR, "\\");
+	define(VENDOR_REQ_DIR, ABS_DIR . "uploads" . DIRECTORY_SEPARATOR ."vendor-req" . DIRECTORY_SEPARATOR);
+	define(VENDOR_REG_PDF_DIR, ABS_DIR . "pdfgen" . DIRECTORY_SEPARATOR. "vendor" . DIRECTORY_SEPARATOR . "reg" . DIRECTORY_SEPARATOR);
+	define(DIV_REQ_PDF_DIR, ABS_DIR . "pdfgen" . DIRECTORY_SEPARATOR. "division" . DIRECTORY_SEPARATOR . "requests" . DIRECTORY_SEPARATOR);
+?>
